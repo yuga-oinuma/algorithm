@@ -9,4 +9,4 @@ def calc_total(datas: list) -> int:
 
 datas = [54, 20, 88, 30, 71, 29, 44, 9, 100, 31]
 total = calc_total(datas)
-print("合計=%d" % sum)
+print("合計=%d" % total)
