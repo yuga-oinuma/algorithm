@@ -1,3 +1,4 @@
+// p58
 const SummaryCount = () => {
     const array = [54, 20, 88, 30, 71, 29, 44, 9, 100, 31]
     let sum = 0;
