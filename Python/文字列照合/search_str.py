@@ -5,7 +5,7 @@ from time import time
 def search_str(sentence: str, target: str) ->int:
     result = -1
     i = j = 0
-    
+
     while i < len(sentence) and j < len(target):
         if sentence[i] == target[j]:
             i += 1
@@ -21,10 +21,12 @@ def search_str(sentence: str, target: str) ->int:
 
 
 if __name__ == '__main__':
-    
-    
+
+
     sentence = input('探索される文字列を入力してください\n>')
     target = input('探索する部分文字列を入力してください\n>')
+    # sentence = "hoge"
+    # target = 5
 
     try:
         time_start = time()
@@ -39,4 +41,3 @@ if __name__ == '__main__':
     except:
         print('問題が発生しました。やり直してください')
 
-    
